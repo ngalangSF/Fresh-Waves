@@ -1,0 +1,35 @@
+.player-bar {
+
+    color: white;
+    font-family: 'Andale Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    background: rgba(0,0,0,0.5);
+
+}
+
+.current-time {
+  font-size: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.total-time {
+  font-size: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.ion-volume-low {
+  padding: 10px;
+  display: inline-block;
+}
+
+.ion-volume-high {
+  padding: 10px;
+  display: inline-block;
+}
+
+#buttons {
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 0.8em;
+}

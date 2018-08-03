@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import albumData from './../data/albums';
 import PlayerBar from './PlayerBar';
+import './styleAlbum.css';
 
 class Album extends Component {
   constructor(props) {
@@ -162,8 +163,8 @@ class Album extends Component {
                 <td>
                   {this.handleIcon(song, index)}
                 </td>
-                <td>{song.title}</td>
-                <td>{this.formatTime(song.duration)}</td>
+                <td className= "song-title">{song.title}</td>
+                <td className= "song-duration">{this.formatTime(song.duration)}</td>
               </tr>
             )}
           </tbody>

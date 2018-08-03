@@ -4,7 +4,8 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 100px;
+  float: left;
 }
 
 .App-header {
@@ -14,12 +15,39 @@
   color: white;
 }
 
+
 .App-title {
   font-size: 1.5em;
+  position: center;
+  padding: 100px;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.Nav-bar {
+  max-width: 500px;
+  color: white;
+  font-family: 'Andale Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  float: left;
+}
+
+.Home {
+  color: white;
+  font-family: 'Andale Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.Library {
+  color: white;
+  font-family: 'Andale Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  display: inline-block;
+  padding-left: 50px;
 }
 
 @keyframes App-logo-spin {

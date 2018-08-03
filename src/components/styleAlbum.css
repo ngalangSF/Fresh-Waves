@@ -1,0 +1,36 @@
+.album {
+  background: url(/assets/images/vinyl.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.album-details {
+
+    color: white;
+    font-family: 'Andale Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    background: rgba(0,0,0,0.5);
+
+
+}
+
+.song-title {
+  padding-left: 15px;
+}
+
+.song-duration {
+  padding-left: 15px;
+}
+
+#album-cover-art {
+  height: 300px;
+  width: 300px;
+}
+
+#song-list {
+
+    color: white;
+    font-family: 'Andale Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    background: rgba(0,0,0,0.5);
+
+}
