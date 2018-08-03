@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "ajv": "^6.5.2",
+    "bootstrap": "^3.3.7",
     "npm-check": "^5.7.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
