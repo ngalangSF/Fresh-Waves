@@ -12,12 +12,12 @@ class App extends Component {
         <header className="App-header">
           <nav className="Nav-bar">
             <Link className=".App-logo" to='/'>
-              <img src="/assets/images/bloc_jams_logo.png" alt="Bloc Jams Logo" width="100" height="100"/>
+              <img src="/assets/images/fresh-waves-logo.jpg" alt="Fresh Waves Logo" width="160" height="100"/>
             </Link>
             <Link className="Home" to='/'>Home</Link>
             <Link className="Library" to='/library'>Library</Link>
           </nav>
-          <h1 className="App-title">Bloc Jams</h1>
+          <h1 className="App-title">Fresh Waves</h1>
         </header>
         <main>
           <Route exact path="/" component={Landing} />
