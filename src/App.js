@@ -12,7 +12,7 @@ class App extends Component {
         <header className="App-header">
           <nav className="Nav-bar">
             <Link className=".App-logo" to='/'>
-              <img src="/assets/images/fresh-waves-logo.jpg" alt="Fresh Waves Logo" width="160" height="100"/>
+              <img src="/assets/images/fresh-waves-logo.jpg" alt="Fresh-Waves-Logo" width="160" height="100"/>
             </Link>
             <Link className="Home" to='/'>Home</Link>
             <Link className="Library" to='/library'>Library</Link>
